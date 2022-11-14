@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Link](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub/job-listings-with-filtering-GmXAehzZs4)
 - Live Site URL: [Demo](https://jahmd.github.io/Job_listings/)
 
 ### Built with
