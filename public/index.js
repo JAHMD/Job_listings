@@ -1,4 +1,4 @@
-const BASE_URL = "../data.json";
+const BASE_URL = "./data.json";
 const loader = document.getElementById("loader-layout");
 const jobList = document.getElementById("job-list");
 const filtersContainer = document.querySelector("#filters-container #filters");
