@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 20px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(180, 29%, 50%);
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(180, 52%, 96%);
+  border-radius: 100vh;
+  border: 3px solid hsl(180, 29%, 50%);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(180, 8%, 52%);
+}
+.job {
+  @apply md:items-center md:justify-between  md:flex-row p-6 border-l-4 border-primary-darkCyan rounded-md bg-white shadow-lg shadow-primary-darkCyan/20 relative transition;
+}
+.job-details {
+  @apply md:mx-4 mt-4 md:mt-0 mb-4 md:mb-0 pb-4 md:pb-0 border-b-[1px] md:border-b-0 border-secondary-DarkCyan-100/50 flex space-y-1 flex-col;
+}
+.category {
+  @apply text-primary-darkCyan font-semibold cursor-pointer hover:bg-primary-darkCyan hover:text-white transition-colors duration-300 bg-secondary-lightCyanBg py-1 px-2 rounded-md focus:bg-red-500;
+}
+.active {
+  opacity: 0;
+  transform: scale(0);
+}

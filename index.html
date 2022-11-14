@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <title>Frontend Mentor | Job Listings</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- main styles file -->
+    <link rel="stylesheet" href="./public/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f1c1c1e611.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./public/index.js" defer></script>
+  </head>
+  <body
+    class="font-main text-[15px] min-h-screen relative bg-secondary-lightCyanBg"
+  >
+    <!-- loader -->
+    <div
+      id="loader-layout"
+      class="absolute w-full h-screen top-0 left-0 z-50 flex justify-center items-center bg-secondary-lightCyanBg"
+    >
+      <div
+        class="loader w-10 aspect-square bg-transparent border-4 border-t-primary-darkCyan border-white rounded-full animate-spin"
+      ></div>
+    </div>
+    <!-- header -->
+    <header
+      class="bg-primary-darkCyan h-[150px] sm:h-[250px] overflow-hidden relative"
+    >
+      <img
+        class="w-full lg:w-2/3 2xl:w-2/4 absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        src="./images/People search-cuate.svg"
+        alt=""
+      />
+    </header>
+    <main class="bg-secondary-lightCyanBg pb-16 relative">
+      <section
+        id="filters-container"
+        class="container -translate-y-1/2 mb-10 sticky top-2 z-40 transition-transform"
+      >
+        <div
+          class="shadow-lg shadow-primary-darkCyan/20 bg-white py-4 px-8 rounded-md flex flex-col md:flex-row md:justify-between"
+        >
+          <div id="filters" class="flex gap-2 flex-wrap"></div>
+          <div
+            id="clear-btn"
+            class="w-fit md:ml-4 order-first md:order-last md:mb-0 select-none"
+          >
+            <button
+              class="rounded-lg bg-primary-darkCyan hover:bg-primary-darkCyan/80 py-1 px-2 text-white text-sm transition-colors duration-300 font-semibold"
+            >
+              Clear
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- job list container-->
+      <div id="job-list" class="container space-y-12">
+        <!-- jobs go here -->
+      </div>
+    </main>
+    <!-- footer -->
+    <div
+      class="attribution absolute bottom-0 left-0 right-0 text-md text-center"
+    >
+      Challenge by
+      <a
+        class="text-[#3e52a3]"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        class="text-[#3e52a3]"
+        href="https://www.frontendmentor.io/profile/JAHMD"
+        target="_blank"
+        >JAHMD</a
+      >.
+    </div>
+  </body>
+</html>
