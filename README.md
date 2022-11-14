@@ -14,7 +14,7 @@ This is a solution to the [Job listings with filtering challenge on Frontend Men
 
 ## Overview
 
-It's a Job listing app with the ability to filter each job according to its categories.
+It's a Job listings app with the ability to filter each job according to its categories.
 
 ### The challenge
 
@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Demo](https://jahmd.github.io/Job_listing/)
+- Live Site URL: [Demo](https://jahmd.github.io/Job_listings/)
 
 ### Built with
 
